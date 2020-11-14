@@ -24,7 +24,7 @@ class App extends Component {
     const response = this.state.uploadResponse;
     const predictions = (response && response.probabilities) || [];
 
-    alert (predictions);
+    alert (response.probabilities);
     return (
       <div>
         <div className="title">
