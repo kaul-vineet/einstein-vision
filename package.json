@@ -16,19 +16,19 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "cloudinary": "^1.13.2",
+    "cloudinary": "^1.23.0",
     "connect-multiparty": "^2.0.0",
-    "episode-7": "^1.1.0",
-    "express": "^4.15.2",
-    "form-data": "^2.1.1",
+    "episode-7": "^1.1.2",
+    "express": "^4.17.1",
+    "form-data": "^2.5.1",
     "fs-promise": "^2.0.3",
     "fs-readfile-promise": "^3.0.0",
     "image-size": "^0.6.3",
-    "jsonwebtoken": "^8.4.0",
-    "mathjs": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mathjs": "^5.10.3",
     "pify": "^4.0.1",
-    "request": "^2.78.0",
-    "request-promise": "^4.1.1"
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
   },
   "repository": {
     "type": "git",
@@ -45,8 +45,8 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.25.0",
-    "mock-fs": "^4.7.0",
-    "rewire": "heroku/rewire#v4.0.3"
+    "mock-fs": "^4.13.0",
+    "rewire": "github:heroku/rewire#v4.0.3"
   },
   "ava": {
     "files": [
