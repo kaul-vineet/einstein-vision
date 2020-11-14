@@ -24,7 +24,6 @@ class App extends Component {
     const response = this.state.uploadResponse;
     const predictions = (response && response.probabilities) || [];
 
-    alert ('hello' + response.probabilities);
     return (
       <div>
         <div className="title">
@@ -86,9 +85,7 @@ class App extends Component {
             
             <Predictions contents={predictions}/>
           </div>
-          <div>
-        		<button onClick={this.toggleButtonState}> I Wish </button>
-      	  </div>
+          
           </Dropzone>
         </div>
 

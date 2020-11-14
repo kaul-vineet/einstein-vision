@@ -31,6 +31,7 @@ class Predictions extends Component {
             if (prediction == null) {
               return null;
             }
+
             const probability = prediction.probability;
             const percent = Math.round(probability * 100);
             const labels = prediction.label.split(/,\s*/);
