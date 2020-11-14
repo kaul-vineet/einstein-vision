@@ -86,6 +86,9 @@ class App extends Component {
             
             <Predictions contents={predictions}/>
           </div>
+          <div>
+        		<button onClick={this.toggleButtonState}> I Wish </button>
+      	  </div>
           </Dropzone>
         </div>
 
